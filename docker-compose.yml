@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    image: oomusou/vue-nginx:0.0.1
+    restart: always
+    ports:
+      - "80:80"
